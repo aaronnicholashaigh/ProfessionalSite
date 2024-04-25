@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <Hero />
     
       <h1 className="flex w-full items-center justify-between px-[20px] py-[16px] lg:container lg:mx-auto lg:px-20">
         Welcome to my, extremly, work in progress site.  This page is created with the help of Vercel and I use it to practice.  Essentially, this project

@@ -26,7 +26,7 @@ export function Navbar(){
 
             <div className="flex gap-x-5">
 
-                <p className="hidden lg:block">Open an Account</p>
+                <p className="hidden lg:block font-medium text-[#36485C] pr-[56px]">Open an Account</p>
                 <div className="flex items-center gap-x-2">
                     <Image src={User} alt="User Profile" />
                     <span className="hidden font-medium text-[#36485C] lg:block">Sign In</span>
