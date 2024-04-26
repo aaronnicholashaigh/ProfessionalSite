@@ -2,7 +2,7 @@ import Image from 'next/image'
 import BlurArrow from '../../public/assets/blue-button.svg'
 import Gradient from '../../public/assets/Gradient.svg'
 import HeroImage from '../../public/assets/Image.svg'
-import Vercel from '../../public/assets/Vercel.png'
+import Vercel from '../../public/vercel.svg'
 
 //features component discussion starts at 47:42
 
@@ -51,7 +51,7 @@ export function Hero(){
                     <p className='text-center'>
                         Created using
                     </p>
-                    <div className='flex w-full flex-col items-center sm:w-[80%]'>
+                    <div className='flex w-full flex-col items-center'>
                         <Image src={Vercel} alt="Vercel" />
                     </div>
                 </div>
