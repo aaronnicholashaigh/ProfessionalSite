@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import Logo from '../../public/assets/Logo.svg';
 import User from '../../public/assets/User.svg';
