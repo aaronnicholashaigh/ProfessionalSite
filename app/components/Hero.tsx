@@ -51,7 +51,7 @@ export function Hero(){
                     <p className='text-center'>
                         Created using
                     </p>
-                    <div className='flex w-full flex-col items-center'>
+                    <div className='flex w-full flex-col items-center sm:w-[80%]'>
                         <Image src={Vercel} alt="Vercel" />
                     </div>
                 </div>
