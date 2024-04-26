@@ -15,17 +15,17 @@ export function Hero(){
                 
 
                 <div className="flex we-full pt-8 justify-center gap-x-6">
-                    <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit"> 
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vQa-viQiSnaA2BiQaLtvXiK8lJ4GnDUG8L6Slhtdp6l5feSy49igt6FIlDhBK3BtQ/pub"><button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit"> 
                     Click here for a copy of my resume!
-                    </button>
+                    </button></a>
 
-                    <button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit"> 
+                    <a href="https://github.com/aaronnicholashaigh/ProfessionalSite"><button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit"> 
                     Checkout the repository for this site!  
                     <span>
                         <Image src={BlurArrow} 
                         alt="Learn more"/>
                     </span>
-                    </button>
+                    </button></a>
                 </div>
             </div>
 
