@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import BlurArrow from '../../public/assets/blue-button.svg'
 import Gradient from '../../public/assets/Gradient.svg'
-import HeroImage from '../../public/assets/Image.svg'
+import HeroImage from '../../public/assets/MeAndKids.jpg'
 import Vercel from '../../public/vercel.svg'
 
 //features component discussion starts at 47:42
