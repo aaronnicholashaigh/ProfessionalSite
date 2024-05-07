@@ -9,10 +9,10 @@ export function ProfessionalSkillsNavbar(){
             <div className="flex items-center">
                 <Image src={Logo} alt="Logo" />
                 <div className="flex pl-[74px] gap-x-[56px]">
+                    <a href="/">Home</a>
                     <a href="/about-me">About Me</a>
                     <a href="/hobbies">Hobbies</a>
                     <a href="/job-history">Job History</a>
-                    <a href="/">Home</a>
                 </div>
             </div>
 
