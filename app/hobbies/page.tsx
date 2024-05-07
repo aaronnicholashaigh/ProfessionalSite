@@ -1,13 +1,12 @@
 import Head from "next/head";
+import { HobbiesNavbar } from "../components/HobbiesNavbar";
 
 export default function Page(){
     
     return (
         <div>
-        <Head>
-        <title>Aaron Haigh's Professional Site</title>
-      </Head>
-      <h1>This is the Hobbies page</h1>
-      </div>
+            <HobbiesNavbar />
+            <h1>This is the Hobbies page</h1>
+        </div>
     )
   }
